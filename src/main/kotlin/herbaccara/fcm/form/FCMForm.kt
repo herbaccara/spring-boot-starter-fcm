@@ -3,6 +3,7 @@ package herbaccara.fcm.form
 import com.fasterxml.jackson.annotation.JsonInclude
 import com.fasterxml.jackson.annotation.JsonProperty
 import com.toasttab.ksp.builder.annotations.GenerateBuilder
+import herbaccara.fcm.form.payload.Payload
 
 // https://firebase.google.com/docs/cloud-messaging/http-server-ref?hl=ko#downstream-http-messages-json
 @JsonInclude(JsonInclude.Include.NON_NULL)

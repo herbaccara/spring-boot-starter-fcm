@@ -2,8 +2,8 @@ package herbaccara.fcm
 
 import com.fasterxml.jackson.module.kotlin.jacksonObjectMapper
 import herbaccara.boot.autoconfigure.fcm.FCMAutoConfiguration
-import herbaccara.fcm.form.AndroidPayload
 import herbaccara.fcm.form.FCMForm
+import herbaccara.fcm.form.payload.AndroidPayload
 import org.junit.jupiter.api.Test
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.boot.test.context.SpringBootTest

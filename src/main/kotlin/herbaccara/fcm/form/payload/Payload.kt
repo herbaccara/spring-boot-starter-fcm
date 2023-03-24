@@ -1,4 +1,4 @@
-package herbaccara.fcm.form
+package herbaccara.fcm.form.payload
 
 interface Payload {
     val title: String

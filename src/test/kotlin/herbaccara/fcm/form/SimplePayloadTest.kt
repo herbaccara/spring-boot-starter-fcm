@@ -1,6 +1,7 @@
 package herbaccara.fcm.form
 
 import com.fasterxml.jackson.module.kotlin.jacksonObjectMapper
+import herbaccara.fcm.form.payload.SimplePayload
 import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.api.Test
 

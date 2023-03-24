@@ -1,12 +1,13 @@
-package herbaccara.fcm.form
+package herbaccara.fcm.form.payload
 
 import com.fasterxml.jackson.annotation.JsonAnyGetter
 import com.fasterxml.jackson.annotation.JsonInclude
 import com.toasttab.ksp.builder.annotations.GenerateBuilder
+import herbaccara.fcm.form.SimplePayloadBuilder
 
 @JsonInclude(JsonInclude.Include.NON_NULL)
 @GenerateBuilder
-data class SimplePayload(
+data class SimplePayload @JvmOverloads constructor(
     override val title: String,
     override val body: String,
     @get:JsonAnyGetter val attrs: Map<String, Any>? = null
