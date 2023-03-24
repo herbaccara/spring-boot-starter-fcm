@@ -4,7 +4,6 @@ import com.fasterxml.jackson.annotation.JsonAnyGetter
 import com.fasterxml.jackson.annotation.JsonInclude
 import com.fasterxml.jackson.annotation.JsonProperty
 import com.toasttab.ksp.builder.annotations.GenerateBuilder
-import herbaccara.fcm.form.AndroidPayloadBuilder
 
 @JsonInclude(JsonInclude.Include.NON_NULL)
 @GenerateBuilder
